@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+.header {
+    box-sizing: broder-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: black;
+    font-size: 3rem;
+    align-items: center;
+    /* background-image: linear-gradient(rgba(164, 164, 237, 0.5), rgba(31, 31, 219, 0.5)); */
+    background-image: /* Top jagged */
+    linear-gradient( 135deg, rgb(228, 74, 74) 50%, rgba(54, 35, 143, .5) 50%), linear-gradient( -135deg, rgba(255, 255, 255, .5) 50%, rgba(255, 255, 255, .1) 50%), /* Bottom jagged */
+    linear-gradient( 45deg, rgb(212, 27, 27) 50%, rgba(255, 255, 255, .5) 50%), linear-gradient( -45deg, rgba(255, 255, 255, .5) 50%, rgba(255, 255, 255, .1) 50%);
+}
+
+.userPicture {
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
+}
